@@ -55,7 +55,9 @@ int main(int argc, char *argv[]) {
 			r = n1 / n2;
 			cout << endl << r;
 			
-		} cout << endl << " --------- ERROR --------- ";
+		} else { 
+			cout << endl << " --------- ERROR --------- ";
+		}
 		break;
 	default: cout << endl << "OPCION INVALIDA ";
 		break;
@@ -63,5 +65,3 @@ int main(int argc, char *argv[]) {
 	
 	return 0;
 }
-
-
