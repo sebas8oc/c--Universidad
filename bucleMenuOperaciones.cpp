@@ -26,7 +26,7 @@ int main(int argc, char *argv[]) {
 			cout << "Digite y: ";
 			cin >> n2;
 			
-			r = n1 * n2;
+			r = n1 + n2;
 			cout << endl << r;
 			break;
 		case 2:
