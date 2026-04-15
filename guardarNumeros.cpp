@@ -19,14 +19,14 @@ int main(int argc, char *argv[]) {
 	switch(par) {
 		case 1:
 
-			for (i = 1; i <= vf; i++) {
+			for (i = 1; i <= vf;) {
 				
 				cout << endl << i<<" Digite un numero par\n";
 				cin >> n;
 				
 				if ( n % 2 == 0) {
 					cout << endl << "Guardando... \n";
-					
+					i++;
 				} else {
 					cout << "No es par";
 				}
