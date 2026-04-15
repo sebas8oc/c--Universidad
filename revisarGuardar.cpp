@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// Revisar Menu que funcione bien el bucle infinito y las opciones
 int main(int argc, char *argv[]) {
 	
 	int vf;
