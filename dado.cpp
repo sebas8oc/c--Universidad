@@ -110,7 +110,7 @@ int main() {
             }
           }
         }
-      } else if (bajos != 1 || bajos != 2) {
+      } else if (bajos != 1 && bajos != 2) {
         cout << endl << "Opcion invalida ";
       }
     }
