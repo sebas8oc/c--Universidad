@@ -34,7 +34,9 @@ int main(int argc, char *argv[]) {
 	}
 	
 	promedio = s / 30;
-	cout << "El promedio del arreglo es = " << promedio;
+	cout << endl << "La suma del arreglo es = " << s;
+	
+	cout << endl << "El promedio del arreglo es = " << promedio;
 	
 	if(par == true){
 		cout << endl << "al menos uno de los numeros es par";
