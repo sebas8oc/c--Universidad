@@ -41,8 +41,10 @@ int main(int argc, char *argv[]) {
 				
 				
 			break;
+				
+			case 3: cout << endl << " Saliendo"; break;
 			
-		default: if ( opc != 3) { cout << "opcion invalida"; }
+		default: cout << "opcion invalida";
 			
 		}
 		
