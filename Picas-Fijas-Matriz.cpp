@@ -103,6 +103,7 @@ int main() {
         ci++;
 
         cout << endl << "HISTORIAL";
+        cout << endl << "I\t*\t*\t*\t*\tP\tF";
         for (int i = 0; i < filas; i++) {
           cout << endl;
           for (int j = 0; j < cols; j++) {
